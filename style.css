@@ -1,4 +1,4 @@
-.path {
+/* .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: dash 5s linear forwards;
@@ -21,4 +21,9 @@
     left: 240px;
     position: absolute;
     top: 144px;
+  } */
+
+  .wave2{
+    position: relative;
+    top: -40px;
   }
