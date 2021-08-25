@@ -30,13 +30,13 @@
            
             console.log(newOffset);
 
-        // text path value
-        var valueSpan = document.getElementById('valueSpan');
+    //span value use for span
+   var valueSpan = document.getElementById('valueSpan');
         valueSpan.innerHTML= arg +"%";
-        valueSpan.setAttribute("startOffset", percentage)
+        valueSpan.style.left=(arg) + "%"; 
 
 
     }
-    test(20);
+    test(50);
 
-
+    

@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -30,11 +30,17 @@
             </g>
         </svg>
 
+        <a href="https://css-tricks.com/svg-line-animation-works/"></a>
         <!-- svg 2-->
-        
+        <div id="test">
         <svg  class="wave2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315.29 17.34">
             <defs>
                 <style>.cls-4{opacity:1;}.cls-2{fill:none;stroke:gray;stroke-miterlimit:10;stroke-width:4px;}</style>
+                 <!-- this filter is only bg-->
+               <!--  <filter x="-0.1" y="-0.1" width="1.2" height="1.2" id="solid">
+                    <feFlood flood-color="gray"/>
+                    <feComposite in="SourceGraphic" operator="xor" />
+                </filter> -->
             </defs>
             <g id="Ebene_2" data-name="Ebene 2">
                 <g id="Ebene_1-2" data-name="Ebene 1">
@@ -44,15 +50,17 @@
                 </g>
             </g>
             
-             <text dy="60%" class="textwrapper" >
-                <textPath id="valueSpan"  id="valueSpan" href="#wave2" class="text" font-weight="bold" letter-spacing="1.5" font-size="16"></textPath>
-            </text> 
+            <!-- for usage add id="valueSpan"-->
+             <span class="valueSpan" style="position:absolute;" id="valueSpan" ></span>  
+ 
         </svg>
-
+          
+        </div>
     </div>
 
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="/p-version/script-p.js"></script>
   </body>
 </html>

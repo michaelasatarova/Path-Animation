@@ -1,15 +1,16 @@
 /* .path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 0;
+    stroke-dashoffset:0;
     animation: dash 5s linear forwards;
   }
   
   @keyframes dash {
     to {
-      stroke-dashoffset: 0;
+      stroke-dashoffset: 200;
     }
-  }
+  } */
 
+ /*
   #p0 {
     color: #0074c4;
     left: 60px;
@@ -23,7 +24,83 @@
     top: 144px;
   } */
 
+
+.valueSpan{
+  color: rgb(104, 98, 98);
+  font-weight: bold;
+  border:2px solid rgb(209, 200, 200);
+  padding: 10px;
+  border-radius: 3px;
+  animation: visibility 3s linear forwards;
+}
+
+/*   .aClassName{
+    color: red;
+    font-weight: bold;
+    border:2px solid red;
+    max-width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+  } */
+
   .wave2{
     position: relative;
-    top: -40px;
+    top: -70px;
   }
+
+  @media only screen and (max-width: 1383px) {
+    .wave2{
+      position: relative;
+      top: -63px;
+    }
+  }
+  @media only screen and (max-width: 1183px) {
+    .wave2{
+      position: relative;
+      top: -55px;
+    }
+  }
+  @media only screen and (max-width: 983px) {
+    .wave2{
+      position: relative;
+      top: -40px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .wave2{
+      position: relative;
+      top: -30px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .wave2{
+      position: relative;
+      top: -24px;
+    }
+  }
+
+
+.text{
+  font-size: 4px;
+  animation: visibility 3s linear forwards;
+  /* fill:black; */
+}
+
+.text-wrapper{
+  border:1px solid red;
+}
+
+  @keyframes visibility {
+    0%{
+      opacity: 0;
+    }
+    90%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  } 

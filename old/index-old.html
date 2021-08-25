@@ -30,11 +30,17 @@
             </g>
         </svg>
 
+        <a href="https://css-tricks.com/svg-line-animation-works/"></a>
         <!-- svg 2-->
-        
+        <div id="test">
         <svg  class="wave2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315.29 17.34">
             <defs>
                 <style>.cls-4{opacity:1;}.cls-2{fill:none;stroke:gray;stroke-miterlimit:10;stroke-width:4px;}</style>
+                 <!-- this filter is only bg-->
+               <!--  <filter x="-0.1" y="-0.1" width="1.2" height="1.2" id="solid">
+                    <feFlood flood-color="gray"/>
+                    <feComposite in="SourceGraphic" operator="xor" />
+                </filter> -->
             </defs>
             <g id="Ebene_2" data-name="Ebene 2">
                 <g id="Ebene_1-2" data-name="Ebene 1">
@@ -47,12 +53,23 @@
              <text dy="60%" class="textwrapper" >
                 <textPath id="valueSpan"  id="valueSpan" href="#wave2" class="text" font-weight="bold" letter-spacing="1.5" font-size="16"></textPath>
             </text> 
-        </svg>
 
+            <!-- for usage add id="valueSpan"-->
+             <!-- <span class="valueSpan" style="position:absolute;"  ></span>  -->
+ 
+        </svg>
+          
+        </div>
     </div>
 
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="script-old.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>

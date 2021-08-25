@@ -30,6 +30,22 @@
            
             console.log(newOffset);
 
+
+
+        //creating p element from js 
+ /*    var node = document.createElement("p");    
+        node.className = "aClassName";           
+    var textnode = document.createTextNode( arg + "%");         
+    node.appendChild(textnode);                              
+    document.getElementById("test").appendChild(node); */
+
+
+
+    //span value use for span
+/*     var valueSpan = document.getElementById('valueSpan');
+        valueSpan.innerHTML= arg +"%";
+        valueSpan.style.left=(arg) + "%"; */
+
         // text path value
         var valueSpan = document.getElementById('valueSpan');
         valueSpan.innerHTML= arg +"%";
